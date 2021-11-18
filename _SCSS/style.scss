@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+fieldset{
+    width: 15vw;
+    h2{
+        text-align: center;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        padding-top: .5vw;
+        label{
+            margin-right: .1vw;
+        }
+        input{
+            padding: .1vw;
+        }
+        #password{
+            margin-left: 1vw;
+            width: 8.7vw;
+        }
+        
+        button{
+            padding: .2vw;
+            margin-top: .5vw;
+            border: 1px solid black;
+            &:hover{
+                background-color: #a8a8a8;
+                color: white;
+            }
+        }
+    }
+}

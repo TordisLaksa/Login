@@ -1,0 +1,53 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+fieldset {
+  width: 15vw;
+}
+
+fieldset h2 {
+  text-align: center;
+}
+
+fieldset div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: .5vw;
+}
+
+fieldset div label {
+  margin-right: .1vw;
+}
+
+fieldset div input {
+  padding: .1vw;
+}
+
+fieldset div #password {
+  margin-left: 1vw;
+  width: 8.7vw;
+}
+
+fieldset div button {
+  padding: .2vw;
+  margin-top: .5vw;
+  border: 1px solid black;
+}
+
+fieldset div button:hover {
+  background-color: #a8a8a8;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
